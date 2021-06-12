@@ -1,0 +1,47 @@
+body{
+    pointer-events: none;
+}
+.header-h3{
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    white-space:inherit;
+}
+.note{
+    font-size: small;
+    font-weight: 500;
+    color: black;
+}
+#copyright_footer{
+    background-color: gray;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    color: white;
+    line-height: 2;
+    font-family: roboto;
+}
+canvas{
+    border:3px dashed black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 18px red;
+    animation: changeColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes changeColor{
+    from{box-shadow: 5px 5px 18px red;}
+    to{box-shadow: 5px 5px 18px blue;}
+}
+video{
+    border: 2px dashed black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 18px red;
+    animation: changeColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
